@@ -8,7 +8,7 @@ body {
 }
 .container {
   background-color: white;
-  max-width: 800px;
+  max-width: 680px;
   width: 90%;
   margin: auto;
   text-align: center;
@@ -36,7 +36,7 @@ body {
 }
 
 .btn.toggle-btn {
-  width: 16em;
+  width: 12em;
   padding: .8em;
   margin: .2em;
   background-color: rgb(224, 224, 8);
@@ -44,7 +44,7 @@ body {
   border-radius: 5px;
 }
 .btn {
-  width: 24em;
+  width: 18em;
   margin: .2em;
   padding: .8em;
   background-color: rgb(32, 85, 199);
