@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: gray;
+}
+.container {
+  background-color: white;
+  max-width: 800px;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 3em;
+  margin-top: 2em;
+}
+.input-text > input {
+  width: 100%;
+  padding: 1em;
+  margin-top: 1em;
+}
+.head {
+  color: #4D4D4D;
+}
+.add-button > button {
+  color: white;
+  background-color: black;
+  width: 100%;
+  margin: 1em 0 1em 0;
+  border-radius: 2px;
+  padding: .8em;
+  cursor: pointer;
+}
+
+.btn.toggle-btn {
+  width: 16em;
+  padding: .8em;
+  margin: .2em;
+  background-color: rgb(224, 224, 8);
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn {
+  width: 24em;
+  margin: .2em;
+  padding: .8em;
+  background-color: rgb(32, 85, 199);
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+
+}
+.btn-danger {
+  background-color: #CA3C3C;
+  color: white;
+}
+ul {
+  list-style-type: none;
+}
+.checked {
+  margin: .5em;
+ 
+}
+.container-checkbox {
+}
