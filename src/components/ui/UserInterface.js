@@ -1,10 +1,11 @@
 import React from "react";
 import FilterButtons from './Buttons/FilterButtons';
-import EditButtons from './Buttons/EditButtons';
 import AddText from './AddText';
 import AddButtons from './Buttons/AddButtons';
+import TaskList from '../ui/TaskList';
 
-const UserInterface = () => {
+
+const UserInterface = ({ tasks }) => {
   return (
     <div className="container">
       <form>
@@ -14,9 +15,7 @@ const UserInterface = () => {
       </form>
       <FilterButtons />
       <h2 className='list-heading'>3 tasks remaining</h2>
-      <EditButtons name='Eat' completed={true}/>
-      <EditButtons name='Sleep' completed={false}/>
-      <EditButtons name='Repeat'completed={false}/>
+      <TaskList />
 
     </div>
   );

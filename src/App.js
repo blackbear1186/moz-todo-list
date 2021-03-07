@@ -1,6 +1,6 @@
 
 import React from 'react';
-import UserInterface from './ui/UserInterface';
+import UserInterface from './components/ui/UserInterface';
 
 function App({props}) {
 
